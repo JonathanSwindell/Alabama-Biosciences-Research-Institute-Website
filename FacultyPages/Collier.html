@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<title>Dr. Don Collier</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../style.css">
+
+<style>
+
+  .collapsible {
+    background-color: rgba(117, 117, 118, 1);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(117, 117, 118, 0.5);;
+  }
+  </style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Alabama Biosciences Research Institute</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="../index.html" class="w3-bar-item w3-button">About</a>
+      <a href="../Faculty.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Faculty</a>
+      <a href="../Projects.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Projects</a>
+      <a href="../Approvals.html" class="w3-bar-item w3-button"><i class="fas fa-clipboard-list"></i>Approvals</a>
+      <a href="../Contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="../index.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="../Faculty.html" onclick="w3_close()" class="w3-bar-item w3-button">Faculty</a>
+  <a href="../Projects.html" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
+  <a href="../Approvals.html" onclick="w3_close()" class="w3-bar-item w3-button"> Approvals</a>
+  <a href="../Contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+<!-- Page content -->
+
+<!-- Publication Section with working links to manuscripts-->
+<div class="w3-container" style="padding:128px 16px" id="work">
+    <h1 class="w3-center">Dr. Don Collier</h1>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Academic Degrees</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Doctor of Philosophy in Wildlife Science <br> Utah State University </b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1974 </span></h6>
+          <hr>
+          <h5 class="w3-opacity"><b> Master of Science in Biology <br> Tennessee Technological University </b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1967 </span></h6>
+          <hr>
+          <h5 class="w3-opacity"><b> Bachelor of Science in Biology <br> Athens State University</b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1965 </span></h6>
+          <hr>
+        </div>
+    </div>
+
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Teaching Profile</h2>
+        <!-- Set off with icons -->
+        <div class="w3-container">
+          <h2 class="w3-opacity"><b> Course Taught </h2>
+          <h5 class="w3-opacity"><b> Biology</h5>
+          <h5 class="w3-opacity"><b> Microbiology</h5>
+          <h5 class="w3-opacity"><b> Botany</h5>
+          <h5 class="w3-opacity"><b> Organismic Biology</h5>
+          <h5 class="w3-opacity"><b> General (Cellular) Biology</h5>
+          <h5 class="w3-opacity"><b> Physical Science</h5>
+          <h5 class="w3-opacity"><b> Biology for non-majors</h5>
+        </div>
+        </div>
+    </div>
+
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Work Experience</h2>
+        <!-- Set off with icons -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Calhoun Community College <br> Professor of Biology</h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1983 - 2020 </span></h6>
+        </div>
+        <hr>
+        <br>
+        <button type="button" class="collapsible">See More</button>
+        <div class="content">
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Calhoun Community College <br> Co-administrator of the Extension Program</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1982 - 1983 </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b> Calhoun Community College <br>  Biology Laboratory Instructor</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1980 - 1982</span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Calhoun Community College <br> Adjunct Instructor</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1978 - 1980 </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>University of Alabama-Huntsville <br> Adjunct Instructor</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1976 - 1977 </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Grace Baptist Schools <br> Principal and Teacher</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1974 - 1976 </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Utah Cooperative Wildlife Research Unit <br> Research Assistant</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1970 - 1974 </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Tennessee Technological University <br> Instructor of Biology</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1967 - 1970 </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Standing Stone State Park <br> YMCA Nature Instructor at Camp Widgiwagan</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1969, summer </span></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Tennessee Technological University <br> Graduate Teaching Assistant</h5>
+            <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1965 - 1967 </span></h6>
+          </div>
+        </div>
+        <p> </p>
+      </div>
+
+    </div>
+    </div>
+
+
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Publications</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Assessment of Prehospital Monitor/Defibrillators for Clostridioides difficile Contamination<br> Cambridge University Press</b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2021 </span></h6>
+          <p>The purpose of this study was to determine if Clostridioides difficile (C. diff) was present on the electrocardiogram (ECG) right arm leads,
+           blood pressure cuffs, and fingertip pulse oximetry sensors of monitor/defibrillators used in the prehospital setting.
+          <br> <a href = "https://www.cambridge.org/core/journals/prehospital-and-disaster-medicine/article/abs/assessment-of-prehospital-monitordefibrillators-for-clostridioides-difficile-contamination/3A1FEA34A71EACB353EE05BBBBEDEA8C" >Assessment of Prehospital Monitor/Defibrillators for Clostridioides difficile Contamination</a>
+          </p>
+          <hr>
+       </div>
+       
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Emergency Medical Services resource capacity and competency amid COVID-19 in the United States: preliminary findings from a national survey <br> Heliyon</b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2020 </span></h6>
+          <p>This study aimed to investigate available resources, Personal Protective Equipment (PPE) availability, sanitation practices,
+             institutional policies, and opinions among EMS professionals in the United States amid the COVID-19 pandemic using a self-report survey questionnaire.
+            <br> <a href = "https://www.sciencedirect.com/science/article/pii/S2405844020307453" >Emergency Medical Services resource capacity and competency amid COVID-19 in the United States: preliminary findings from a national survey</a>
+          </p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Factors Influencing Distribution of the Utah Prairie Dog (Sciuridae) <br> Southwestern Naturalist 20(2), 151-158.</b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1975 </span></h6>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Cynomys parvidens <br> Mammalian Species, No. 52, pp. 1-3. </b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1975 </span></h6>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Dissertation:  The Utah Prairie Dog:  Abundance, Distribution and Habitat Requirements. </b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1973 </span></h6>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>The Utah Prairie Dog, Decline of a Legend <br> Utah Science 34:83-87. </b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1973 </span></h6>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Prairie Dogs, A Legend in Danger <br> Utah Science 33:22-25.</b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1972 </span></h6>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Status of the Utah Prairie Dog,  Cynomys parvidens. <br> Utah Academy of Science, Arts and Letters 49:27-39.</b></h5>
+          <h6 class="w3-text"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 1970 </span></h6>
+          <hr>
+        </div>
+
+        
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Home</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/profile.php?id=100070946506139"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/alabamabiosciencesresearchinst/"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/AlabamaBioSci"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <!-- ADD Linkedin <a href="#replace"> </a><i class="fa fa-linkedin w3-hover-opacity"></i></a> !-->
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Alabama Biosciences Research Institute, Inc is a 501(c)(3) non-profit organization.</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+
