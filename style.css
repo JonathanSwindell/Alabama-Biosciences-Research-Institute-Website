@@ -10,9 +10,9 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: contain;
-  background-size: 85% auto;
+  background-size: 75% auto;
   background-repeat: no-repeat;
-  background-image: url("Images/ABRI_Logo.jpg");
+  background-image: url("Images/ABRI_Logo.png");
   min-height: 100%;
 }
 
